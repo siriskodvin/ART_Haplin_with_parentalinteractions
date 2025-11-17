@@ -1,0 +1,22 @@
+Contains files with data underlying all plots in the article.
+
+File names are on the form:
+PLOT_SAMPLE_MODEL_EFFECT
+
+PLOT
+qq = Quantile-quantile plot
+manh = Manhattan plot
+
+SAMPLE
+art = ART sample
+nonart = non-ART sample
+
+MODEL
+hap = "Classic" Haplin model including only fetal effect
+hapint_cf = Extended Haplin model including parental complementary interaction effect
+hapint_th = Extended Haplin model including parental threshold-based interaction effect
+
+EFFECT
+fet = fetal single dose effect
+fetd = fetal double dose effect
+int = parental interaction effect
